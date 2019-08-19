@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ireckonu.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Ireckonu.WebApi.Controllers.FileController.ImporExcelFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Import Excel FIle
+            </summary>      
+            <response code="200">Returns path of the json file</response>
+            <response code="400">Bad request </response>
+            <response code="500">If a server error occurs</response>        
+        </member>
+    </members>
+</doc>
